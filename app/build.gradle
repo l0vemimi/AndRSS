@@ -4,8 +4,12 @@ plugins {
 
 android {
     compileSdkVersion 33
+
+    // Add your namespace here
+    namespace 'com.l0vemimi.andrss'
+
     defaultConfig {
-        applicationId "com.andrss"
+        applicationId "com.l0vemimi.andrss"
         minSdkVersion 21
         targetSdkVersion 33
         versionCode 1
